@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.memorygame.LevelController"
+           style="-fx-background-color: linear-gradient(to right, #8e2de2, #4a00e0);"
+           prefWidth="600" prefHeight="400">
+
+    <VBox alignment="CENTER" spacing="20">
+        <Button text="Easy (4x4)" onAction="#selectEasy"
+                style="-fx-font-size: 16px; -fx-background-color: #5dade2; -fx-text-fill: white; -fx-padding: 10px 20px;" />
+        <Button text="Medium (6x6)" onAction="#selectMedium"
+                style="-fx-font-size: 16px; -fx-background-color: #48c9b0; -fx-text-fill: white; -fx-padding: 10px 20px;" />
+        <Button text="Hard (8x8)" onAction="#selectHard"
+                style="-fx-font-size: 16px; -fx-background-color: #f5b041; -fx-text-fill: white; -fx-padding: 10px 20px;" />
+    </VBox>
+</StackPane>

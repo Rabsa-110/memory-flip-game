@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1"
+           fx:controller="com.memorygame.ResultController"
+           prefWidth="600" prefHeight="400"
+           style="-fx-background-color: linear-gradient(to right, #00c6ff, #0072ff);">
+
+    <VBox alignment="CENTER" spacing="20">
+        <Label text="🎉 CONGRATULATIONS!"
+               style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: white;" />
+
+        <Label fx:id="timeLabel"
+               style="-fx-font-size: 18px; -fx-text-fill: white;" />
+
+        <Label fx:id="starsLabel"
+               style="-fx-font-size: 32px; -fx-text-fill: gold;" />
+
+        <Button text="🔁 Restart" onAction="#restartGame"
+                style="-fx-background-color: #5dade2; -fx-text-fill: white;" />
+
+        <Button text="✅ Finish" onAction="#finishGame"
+                style="-fx-background-color: #f1948a; -fx-text-fill: white;" />
+    </VBox>
+</StackPane>
