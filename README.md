@@ -46,6 +46,9 @@ A simple memory card flip game built with JavaFX and Maven. Players flip cards t
 
 ## 📷 Screenshots
 
+### 📂 Files
+![File](images/FILE.png)
+
 ### 🎮 Start Screen
 ![Start](images/START.png)
 
@@ -61,7 +64,7 @@ A simple memory card flip game built with JavaFX and Maven. Players flip cards t
 
 ## 🎬 Demo Video
 
-[▶️ Watch Gameplay Demo on YouTube](https://youtu.be/9K3ZDDmhlFY?si=Ws2WtTBx3IJ_1efz)
+[▶️ Watch Gameplay Demo](https://youtu.be/QSanI5FDTVw)
 
 
 ## How to Play
