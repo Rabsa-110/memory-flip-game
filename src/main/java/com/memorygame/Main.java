@@ -10,8 +10,10 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("/com/memorygame/welcome.fxml"));
-        primaryStage.setScene(new Scene(root));
+        Scene scene = new Scene(root, 800, 600);
         primaryStage.setTitle("Memory Flip Game");
+        primaryStage.setScene(scene);
+        primaryStage.setResizable(false); // ✅ Prevent resize
         primaryStage.show();
     }
 

@@ -12,10 +12,10 @@ public class WelcomeController {
     @FXML
     private void startGame(ActionEvent event) throws Exception {
         Parent levelRoot = FXMLLoader.load(getClass().getResource("/com/memorygame/level.fxml"));
-        Scene levelScene = new Scene(levelRoot);
-
+        Scene levelScene = new Scene(levelRoot, 800, 600);
         Stage stage = (Stage)((Node) event.getSource()).getScene().getWindow();
         stage.setScene(levelScene);
+        stage.setResizable(false); // ✅ keep size fixed
         stage.show();
     }
 }
